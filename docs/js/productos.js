@@ -1,6 +1,6 @@
 function cargarProductos(){
     $.ajax({
-        url:"../json/productos.json",
+        url:"./productos.json",
         method:'GET'
     })
     .done(function(respuesta){
