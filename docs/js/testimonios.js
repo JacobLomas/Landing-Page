@@ -1,6 +1,6 @@
 function cargarTestimonios(){
     $.ajax({
-        url:"./testimonios.json",
+        url:"./json/testimonios.json",
         method:'GET'
     })
     .done(function(respuesta){
