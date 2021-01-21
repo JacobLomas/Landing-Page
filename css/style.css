@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+body,button{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+p{
+    box-sizing: content-box;
+}
+button{
+    padding: 8px 16px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 1rem;
+    text-decoration: none;
+    color:#361257;
+    border: 1px solid #361257;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+    transition: background-color 0.5s ease-in-out;
+}
+button:hover{
+    background-color: #361257;
+    color: white;
+    cursor: pointer;
+}
+input:disabled, button:disabled{
+    background-color: rgba(33, 28, 53, 0.376);
+    color: initial;
+}
+
+.btnArriba{
+    z-index: 5;
+    position: fixed;
+    top: 90vh;
+    right: 1%;
+    cursor: pointer;
+}
+circle{
+    stroke: #361257;
+    stroke-width: 2;
+    r:25;
+    cx:50;
+    cy:50;
+    fill: #361257 ;
+    fill-opacity: 0.2;
+    background-image: url('../multimedia/iconos/btnArriba.svg');
+}
+text{
+    fill:#361257;
+}
+
+

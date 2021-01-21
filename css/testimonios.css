@@ -1,0 +1,70 @@
+.testimonios{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.testimonio-header{
+    width: 90%;
+}
+.testimonio{
+    width: 90vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #36125749;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transition: all 0.5s ease-in-out;
+}
+.testimonio:hover{
+    transform: translateY(-3.5%);
+    -webkit-transform: translateY(-3.5%);
+    -moz-transform: translateY(-3.5%);
+    -ms-transform: translateY(-3.5%);
+    -o-transform: translateY(-3.5%);
+}
+.testimonio img{
+    width: 100%;
+}
+.testimonio-body{
+    width: 100%;
+    padding: 10px;
+}
+
+table{
+    display: none;
+}
+tr, td{    width: 100vw;
+    text-align: center;
+    border: 1px solid #361257;
+}
+tr:nth-child(odd){
+    background-color: #36125749;
+}
+thead{
+    background-color:  #361257;
+    color: white;
+}
+td img{
+    width: 10vw;
+}
+@media screen and (min-width:576px){
+    .testimonio{
+        flex-direction: row;
+    }
+    .testimonio img{
+        width: 40%;
+    }
+    .testimonio-body{
+        width: 60%;
+    }
+}
+@media screen and (min-width:768px){
+    .testimonio img{
+        width: 25%;
+    }
+    .testimonio-body{
+        width: 70%;
+    }
+}

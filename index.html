@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/testimonios.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/toggle.js"></script>
+    <script src="./js/regex.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/productos.js"></script>
+    <script src="./js/testimonios.js"></script>
+    <title>+ Que Bolsos</title>
+</head>
+<body>
+    <aside id="mySidebar" class="sidebar">
+        <form class="form-register ">
+            <a href="javascript:void(0)" class="closebtn">×</a>
+            <h4>Formulario Registro</h4>
+            <label for="nombre">Nombre</label>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <label for="apellidos">Apellidos</label>
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" disabled>
+            <label for="correo">Correo electrónico</label>
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" disabled>
+            <label for="contrasena">Contraseña</label>
+            <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña"disabled>
+            <small>Letras y numeros de 8 a 16 carácteres</small>
+            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            <button type="submit" disabled>Registrar</button>
+            <p><a href="#">¿Ya tengo Cuenta?</a></p>
+        </form>
+    </aside>
+    <header>
+        <img id="logo" src="./multimedia/logo2.png" alt="Logo más que bolsos">
+        <button id="subscribirse">Subscribirse  ☰</button>
+    </header>
+    <section class="hero">
+        <video autoplay muted loop class="video">
+            <source src="./multimedia/Coffee - 46989 (1).mp4">
+                Su navegador no soporta video
+        </video>
+        <article class="contenido">
+            <h1>+ QUE BOLSOS</h1>
+            <h2>Tu complemento te define</h2>
+            <div class="contacto">
+                <div class="telefono">
+                    <img src="./multimedia/iconos/phone-xxl.png" width="50" alt="Icono telefono">
+                    <h2>958 46 62 47</h2>
+                </div>
+                <div class="correo">
+                    <img src="./multimedia/iconos/message-xxl.png" width="50" alt="Icono mail">
+                    <h2>masquebolsos@gmail.com</h2>
+                </div>
+                <div class="localizacion">
+                    <img src="./multimedia/iconos/location-xxl.png" width="50" alt="Icono localizacion">
+                    <h2>C/Ahí mismo, 4 - Granada</h2>
+                </div>
+            </div>
+        </article>
+    </section>
+    <div class="btnArriba">
+        <svg width="100" height="100">
+                
+            <text x="36" y="59" font-size="30">▲</text>
+                <circle/>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+    </div>
+    <section class="productos"></section>
+    <section class="testimonios" style="display: none;">
+        <div class="testimonios-header">
+            <button id="cambiarVista">Cambiar Vista Testimonio</button>
+        </div>
+        <table>
+            <thead>
+                <td>Foto</td>
+                <td>Usuario</td>
+                <td>Comentario</td>
+                <td>Fecha</td>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    
+</body>
+</html>

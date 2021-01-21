@@ -1,0 +1,109 @@
+header{
+    background-color: rgb(225, 213, 231);
+    position: sticky;
+    top: 1%;
+    margin-left: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 30%;
+    z-index: 5;
+}
+#logo{
+    width: 100%;
+}
+#subscribirse{
+    width: 100%;
+    overflow: hidden;
+}
+.sidebar {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(225, 213, 231);
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+  }
+  
+  .closebtn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    z-index: 6;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+.form-register {
+    height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color:#361257 ;
+}
+
+.form-register h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+ 
+}
+
+.controls {
+  width: 80%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #361257;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  text-align: center;
+}
+
+.form-register a {
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: #361257;
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width:568px){
+    #logo{
+        width: 300px;
+    }
+    #subscribirse{
+        width: fit-content;
+    }
+    header{
+      height: 20%;
+      margin-left: 3%;
+    }
+}

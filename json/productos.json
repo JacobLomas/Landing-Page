@@ -1,0 +1,32 @@
+{
+    "productos":[
+        {
+            "titulo":"Bolsos",
+            "texto":"Un pequeño Lorem Ipsum",
+            "img":"../multimedia/bolso.png",
+            "alt":"Imagen de un bolso",
+            "src":"#"
+        },
+        {
+            "titulo":"Cinturones",
+            "texto":"Un pequeño Lorem Ipsum",
+            "img":"../multimedia/cinturon.png",
+            "alt":"Imagen de un cinturon",
+            "src":"#"
+        },
+        {
+            "titulo":"Carteras",
+            "texto":"Un pequeño Lorem Ipsum",
+            "img":"../multimedia/cartera.png",
+            "alt":"Imagen de una cartera",
+            "src":"#"
+        },
+        {
+            "titulo":"Paraguas",
+            "texto":"Un pequeño Lorem Ipsum",
+            "img":"../multimedia/paraguas.png",
+            "alt":"Imagen de un paraguas",
+            "src":"#"
+        }
+    ]
+}
