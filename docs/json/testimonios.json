@@ -2,61 +2,61 @@
     "testimonios":[
         {
             "nombre":"Patricio Estrella",
-            "foto":"../multimedia/testimonios/user1.jpg",
+            "foto":"./multimedia/testimonios/user1.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Bob Esponja",
-            "foto":"../multimedia/testimonios/user2.jpg",
+            "foto":"./multimedia/testimonios/user2.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"20/02/2011"
         },
         {
             "nombre":"Calamardo",
-            "foto":"../multimedia/testimonios/user3.jpg",
+            "foto":"./multimedia/testimonios/user3.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Arenita",
-            "foto":"../multimedia/testimonios/user4.jpg",
+            "foto":"./multimedia/testimonios/user4.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Eugene Cangrejo",
-            "foto":"../multimedia/testimonios/user5.jpg",
+            "foto":"./multimedia/testimonios/user5.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Perla",
-            "foto":"../multimedia/testimonios/user6.jpg",
+            "foto":"./multimedia/testimonios/user6.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Plankton",
-            "foto":"../multimedia/testimonios/user7.jpg",
+            "foto":"./multimedia/testimonios/user7.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Karen",
-            "foto":"../multimedia/testimonios/user8.jpg",
+            "foto":"./multimedia/testimonios/user8.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Larry Langosta",
-            "foto":"../multimedia/testimonios/user9.jpg",
+            "foto":"./multimedia/testimonios/user9.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         },
         {
             "nombre":"Señorita Puff",
-            "foto":"../multimedia/testimonios/user10.jpg",
+            "foto":"./multimedia/testimonios/user10.jpg",
             "testimonio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor eros, egestas id vulputate eget.",
             "fecha":"10/10/2021"
         }
