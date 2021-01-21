@@ -34,4 +34,21 @@ $(window).on('load', function(){
         $('.testimonio').toggle(1000);
         $('table').toggle(1000);
     })
+    //Geolocalizador
+    navigator.geolocation.getCurrentPosition(geoSucces, geoError);
 });
+
+function geoSucces(position) {
+    let coord = position.coords;
+
+	$.ajax(`https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyCb0unDlhxO7OS3cHce1mA8UQV3kjdNwZQ&address=${coord.latitude},${coord.longitude}`)
+		.done((response) => {
+			console.log(response.results[0].formatted_address);
+		})
+		.fail((error) => {
+			console.warn(error);
+		});
+}   
+function geoError(){
+    console.log("Su navegador no es compatible con geolocalizacion")
+}
