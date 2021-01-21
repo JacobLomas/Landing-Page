@@ -9,8 +9,8 @@ El formulario se debe ABRIR en la pantalla pequeña o en la grande, si, por ejem
 
 # Las partes de la página :
  - Header: Contiene el logo y un boton en el que se despliga un formulario desde la derecha. Si se hace click a él en pantallas pequeñas, ocupará toda la vista.
-  -Formulario: Cada campo se se pondrá enabled cuando se valide el anterior.
- -Hero: Contiene un video de fondo junto con un degradado y contenido
- -Testimonios: Consta de 3 testimonios aleatorios que cambian cada 10 segundos aproximadamente. Además, ofrece la posibilidad de mostrarlos en vista de tabla.
- -Productos/Servicios: En esta sección se podrán ver los diferentes productos y/o servicios que se ofertan
+  - Formulario: Cada campo se se pondrá enabled cuando se valide el anterior.
+ - Hero: Contiene un video de fondo junto con un degradado y contenido
+ - Testimonios: Consta de 3 testimonios aleatorios que cambian cada 10 segundos aproximadamente. Además, ofrece la posibilidad de mostrarlos en vista de tabla.
+ - Productos/Servicios: En esta sección se podrán ver los diferentes productos y/o servicios que se ofertan
 
