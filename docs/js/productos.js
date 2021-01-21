@@ -12,7 +12,7 @@ function cargarProductos(){
         enviadoProductos=true;
     }).fail(function(){
         enviadoProductos=true;
-        setTimeout(cargarJSON, 5000);
+        setTimeout(cargarProductos, 5000);
     });
 }
 
