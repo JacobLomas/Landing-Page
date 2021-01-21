@@ -14,7 +14,7 @@ video{
     z-index: -1;
 }
 .contenido {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-flow: column;
     align-items: center;
