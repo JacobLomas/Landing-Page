@@ -11,7 +11,7 @@ function cargarTestimonios(){
         setInterval(limpiarSection,10000);
     }).fail(function(){
         enviadoTestimonios=true;
-        setTimeout(cargarTestimonios(), 5000);
+        setTimeout(cargarTestimonios, 5000);
     });
 }
 
