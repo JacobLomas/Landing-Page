@@ -8,7 +8,7 @@ $(window).on('load', function(){
     $(window).on('scroll', function(){
         if($(window).scrollTop()+$(window).height()>=$(document).height() -100){
             if(!enviadoTestimonios)
-            cargarTestimonios();
+                cargarTestimonios();
             else
                 if(!enviadoProductos)
                     cargarProductos();

@@ -4,12 +4,14 @@ function cargarProductos(){
         method:'GET'
     })
     .done(function(respuesta){
-        let section=$('<section class="productos">');
-        for(producto of respuesta.productos){
-            $(section).append(maquetarProducto(producto));
+        if(!$('.productos').length){ //Sin este if, solo en ocasiones, me hace más de una peticion ajax (Preguntar a Jose)
+            let section=$('<section class="productos">');
+            for(producto of respuesta.productos){
+                $(section).append(maquetarProducto(producto));
+            }
+            $('body').append(section);
+            enviadoProductos=true;
         }
-        $('body').append(section);
-        enviadoProductos=true;
     }).fail(function(){
         enviadoProductos=true;
         setTimeout(cargarProductos, 5000);

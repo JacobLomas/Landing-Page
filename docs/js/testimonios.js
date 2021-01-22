@@ -4,11 +4,13 @@ function cargarTestimonios(){
         method:'GET'
     })
     .done(function(respuesta){
-        jsonTestimonios=respuesta.testimonios;
-        enviadoTestimonios=true;
-        $('.testimonios').show(1000);
-        desencadenado();
-        setInterval(limpiarSection,10000);
+        if(!jsonTestimonios){ //Sin este if, solo en ocasiones, me hace más de una peticion ajax (Preguntar a Jose)
+            jsonTestimonios=respuesta.testimonios;
+            enviadoTestimonios=true;
+            $('.testimonios').show(1000);
+            desencadenado();
+            setInterval(limpiarSection,10000);
+        }
     }).fail(function(){
         enviadoTestimonios=true;
         setTimeout(cargarTestimonios, 5000);
